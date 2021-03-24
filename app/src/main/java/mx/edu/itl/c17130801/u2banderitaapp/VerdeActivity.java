@@ -15,12 +15,12 @@ public class VerdeActivity extends AppCompatActivity {
     }
 
     public void cambiarSeccion ( View v ) {
-        if ( v.getId() == R.id.btnVerdeSiguiente ) {
+        if ( v.getId () == R.id.btnVerdeSiguiente ) {
             // Invocar al activity de la sección blanco de la bandera
             Intent intent = new Intent ( this, BlancoActivity.class );
             startActivity ( intent );
         } else if ( v.getId () == R.id.btnVerdeAtras ) {
-            // finalizamos la ejecución de este activity
+            // Finalizamos la ejecución de este activity
             finish ();
         }
     }

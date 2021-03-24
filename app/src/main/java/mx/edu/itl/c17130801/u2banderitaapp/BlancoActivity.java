@@ -21,7 +21,7 @@ public class BlancoActivity extends AppCompatActivity {
             Intent intent = new Intent ( this, RojoActivity.class );
             startActivity ( intent );
         } else if ( v.getId () == R.id.btnBlancoAtras ) {
-            // finalizamos la ejecución de este activity
+            // Finalizamos la ejecución de este activity
             finish ();
         }
     }

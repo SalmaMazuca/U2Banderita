@@ -11,13 +11,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView ( R.layout.activity_main ) ;
     }
 
     public void UnActivityUnLayoutClick ( View v ) {
         // Invocamos la ejecución del Activity BanderaCompleta
         Intent intent = new Intent ( this, BanderaCompletaActivity.class );
-        startActivity( intent );
+        startActivity ( intent );
     }
 
     public void UnActivityTresLayoutsClick ( View v ) {
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void AcercaDeClick ( View v ) {
-        // Invocar la ejecución de la portada
+        // Invocar la ejecución del activity AcercaDe
         Intent intent = new Intent ( this, AcercaDeActivity.class );
         startActivity( intent );
     }

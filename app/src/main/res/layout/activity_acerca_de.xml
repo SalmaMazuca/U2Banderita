@@ -103,7 +103,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="U2 Banderita App"
+            android:text="U2 Banderita App V 2.0"
             android:textAlignment="center"
             android:textColor="#8BC34A"
             android:textSize="24sp"
@@ -144,7 +144,7 @@
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Torreón, Coahuila a 18 de Marzo del 2021"
+            android:text="Torreón, Coahuila a 21 de Marzo del 2021"
             android:textAlignment="center"
             android:textSize="10sp" />
     </LinearLayout>
